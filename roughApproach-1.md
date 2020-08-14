@@ -53,17 +53,16 @@ I will Use Darknet Model with YOLO object detection which will output Bounding B
 Research paper will be linked later!
 
 ### Pseudo Code:
+initialize dir structure
+
 for frame in frames:
 
     for bb in bbs:
         
         if class_num in class_nums: //if detected box is in choice user wants.
             
-            check if folder exist:
+            save respected outputs
                 
-                yes: save respected outputs
-                
-                no: make directory and save
         else:
             Dont care
             
