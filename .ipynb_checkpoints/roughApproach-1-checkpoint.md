@@ -17,6 +17,7 @@ Note: This is my rough approach I have decided. The project is yet to be made.
 
 Why am I deciding to keep FOI? Well for many videos with visually less content and movements can cause a lot of similar/redudant frames resulting in increase in data redudancy and Low quality of data corpus.
 
+- A Confidence parameter which will be threshold from 0 to 1 which will set the confidence of this annotation model to annotate a frame. This parameter will directly impact the quality of training data it will produce. Say for poor lit conditions we would want to take object which was judged as car with a confidence of 0.5 while if we keep it too low than it can affect the data quality badly as objects which are not car will also be car accordingly.
 
 ## Expected Outputs:
 - The final output will be a base image and a text file of bounding box coordinates
