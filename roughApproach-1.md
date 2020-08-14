@@ -29,23 +29,23 @@ output
 └───Class_1
 │   │
 │   └───Base
-│   │   │   class_1_1.png
-│   │   │   class_1_2.png
+│   │   │   0.png
+│   │   │   10.png
 │   │   │   ...
 │   └───BBoxes
-│       │   class_1_1.txt
-│       │   class_1_2.txt
+│       │   0.txt
+│       │   10.txt
 │       │   ...
 │   
 └───Class_2
 │   │
 │   └───Base
-│   │   │   class_2_1.png
-│   │   │   class_2_2.png
+│   │   │   2.png
+│   │   │   3.png
 │   │   │   ...
 │   └───BBoxes
-│       │   class_2_1.txt
-│       │   class_2_2.txt
+│       │   2.txt
+│       │   3.txt
 │       │   ...
 │   
 ```
@@ -68,3 +68,4 @@ for frame in frames:
             Dont care
             
             
+Here I will not emphasis more on model building strategies and will be borrowing the code directly from one of my previous repositories for object detection will be linking it in readme.
